@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>AirBNB</title>
   <!-- Favicon   -->
   <!-- Meta   -->
   <meta name="robots" content="index, follow">
@@ -16,6 +16,55 @@
   <link rel="stylesheet" href="./build/css/app.css">
 </head>
 <body>
+
+  <header class="header">
+    <div class="header__container">
+      <div class="header__content">
+        <div class="barra">
+          <p class="barra__logo">VIaje</p>
+          <nav class="barra__menu">
+            <a class="barra__link" href="#">Lugares para hospedarte</a>
+            <a class="barra__link" href="#">Experiencias</a>
+            <a class="barra__link" href="#">Experiencias en línea</a>
+          </nav>
+
+          <nav class="barra__login">
+            <a class="barra__link" href="#">Hazte Anfitrión</a>
+          </nav>
+        </div>
+
+        <form class="formulario">
+          <div class="formulario_campo">
+            <label class="formulario__label" for="ubicacion">Ubicación</label>
+            <input id="ubicacion" class="formulario__input" type="text" placeholder="¿A dónde viajas?">
+          </div>
+
+          <div class="formulario_campo">
+            <label class="formulario__label" for="llegada">Llegada</label>
+            <input id="llegada" class="formulario__input" type="date">
+          </div>
+
+          <div class="formulario_campo">
+            <label class="formulario__label" for="salida">Salida</label>
+            <input id="salida" class="formulario__input" type="date">
+          </div>
+
+          <div class="formulario_campo">
+            <label class="formulario__label" for="huespedes">Huéspedes</label>
+            <input id="huespedes" class="formulario__input" type="number" placeholder="¿Cuántos?">
+          </div>
+
+          <input class="formulario__boton" type="submit" value="Buscar">
+        </form>
+
+        <div class="header__busqueda">
+          <p class="header__busqueda-label">¿No sabes a donde ir?</p>
+          <a href="#" class="header__busqueda-boton">Búsqueda Flexible</a>
+        </div>
+
+      </div>
+    </div>
+  </header>
 
 </body>
 </html>
