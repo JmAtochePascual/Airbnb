@@ -8,7 +8,6 @@
   grid-template-rows: repeat(2, 1fr);
   row-gap: 10rem;
   color: v.$blanco;
-  background-image: linear-gradient(to bottom, v.$negro 0%, v.$negro 50%, transparent 50%), url("../img/anfitrion.jpg");
   background-size: 100%, 60rem;
   background-position: center, center bottom;
   background-repeat: no-repeat;
@@ -23,7 +22,7 @@
   @media (min-width: 768px) {
     min-height: unset;
     grid-template-rows: unset;
-    background-image: linear-gradient(to right, v.$negro 0%, v.$negro 45%, transparent 55%), url("../img/anfitrion.jpg");
+
     background-size: 100%, auto;
     background-position: center, 50% 30%;
     padding: 15rem 5rem;
@@ -56,6 +55,34 @@
 
     @media (min-width: 768px) {
       padding: 1.6rem 2.4rem;
+    }
+  }
+}
+
+.anfitrion {
+  background-image: linear-gradient(to bottom, v.$negro 0%, v.$negro 50%, transparent 50%), url("../img/anfitrion.jpg");
+
+  @media (min-width: 768px) {
+    background-image: linear-gradient(to right, v.$negro 0%, v.$negro 45%, transparent 55%), url("../img/anfitrion.jpg");
+  }
+}
+
+@supports (background-image:url("../img/anfitrion.webp")) {
+  .anfitrion {
+    background-image: linear-gradient(to bottom, v.$negro 0%, v.$negro 50%, transparent 50%), url("../img/anfitrion.webp");
+
+    @media (min-width: 768px) {
+      background-image: linear-gradient(to right, v.$negro 0%, v.$negro 45%, transparent 55%), url("../img/anfitrion.webp");
+    }
+  }
+}
+
+@supports (background-image:url("../img/anfitrion.avif")) {
+  .anfitrion {
+    background-image: linear-gradient(to bottom, v.$negro 0%, v.$negro 50%, transparent 50%), url("../img/anfitrion.avif");
+
+    @media (min-width: 768px) {
+      background-image: linear-gradient(to right, v.$negro 0%, v.$negro 45%, transparent 55%), url("../img/anfitrion.avif");
     }
   }
 }
