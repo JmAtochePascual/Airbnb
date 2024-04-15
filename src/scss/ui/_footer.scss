@@ -1,0 +1,55 @@
+@use "../base/variables" as v;
+
+.footer {
+
+  @media (min-width: 768px) {
+    padding-top: 4.8rem;
+  }
+
+  &__grid {
+    margin-bottom: 2.4rem;
+    display: grid;
+    gap: 2.4rem;
+
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  &__titulo {
+    font-weight: 700;
+  }
+
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+  }
+
+  &__link {
+    color: v.$gris
+  }
+
+  &__barra {
+    padding-block: 1.6rem;
+    border-top: 1px solid v.$grisClaro;
+  }
+
+  &__nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8rem;
+  }
+
+  &__link-barra {
+    &::after {
+      content: "-";
+      margin-left: .8rem;
+      display: inline-block;
+    }
+
+    &:last-child::after {
+      content: ""; // Esto eliminará el contenido del pseudo-elemento para el último enlace
+    }
+  }
+}
