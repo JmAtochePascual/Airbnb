@@ -1,0 +1,61 @@
+@use "../base/variables" as v;
+
+.anfitrion {
+  min-height: 65rem;
+  padding: 5rem;
+  border-radius: 1.6rem;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 10rem;
+  color: v.$blanco;
+  background-image: linear-gradient(to bottom, v.$negro 0%, v.$negro 50%, transparent 50%), url("../img/anfitrion.jpg");
+  background-size: 100%, 60rem;
+  background-position: center, center bottom;
+  background-repeat: no-repeat;
+  background-size: 100%, 58rem;
+
+  @media (min-width: 579px) {
+    min-height: 75rem;
+    background-size: 100%, 75rem;
+    background-position: center, center 35rem;
+  }
+
+  @media (min-width: 768px) {
+    min-height: unset;
+    grid-template-rows: unset;
+    background-image: linear-gradient(to right, v.$negro 0%, v.$negro 45%, transparent 55%), url("../img/anfitrion.jpg");
+    background-size: 100%, auto;
+    background-position: center, 50% 30%;
+    padding: 15rem 5rem;
+  }
+
+  &__contenido {
+    // max-width: 70%;
+
+    @media (min-width: 768px) {
+      max-width: 45%;
+    }
+  }
+
+  &__titulo {
+    margin-bottom: 2.4rem;
+  }
+
+  &__texto {
+    margin-bottom: 2.4rem;
+  }
+
+  &__enlace {
+    padding: .8rem 1.6rem;
+    border-radius: 20rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+    display: inline-block;
+    color: v.$negro;
+    background-color: v.$blanco;
+
+    @media (min-width: 768px) {
+      padding: 1.6rem 2.4rem;
+    }
+  }
+}
