@@ -1,0 +1,128 @@
+@use "../base/variables" as v;
+
+.lugares {
+  padding-block: 2.4rem;
+
+  @media (min-width: 1024px) {
+    padding-block: 4.8rem;
+  }
+
+  &__titulo {
+    margin-bottom: 2.4rem;
+
+    @media (min-width: 1024px) {
+      margin-bottom: 4.8rem;
+    }
+  }
+
+  &__grid {
+    overflow-x: scroll;
+    padding-bottom: 1.6rem;
+    display: flex;
+    gap: 1.6rem;
+    scroll-snap-type: x mandatory;
+
+    @media (min-width: 768px) {
+      overflow-x: unset;
+      scroll-snap-type: unset;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    &::-webkit-scrollbar {
+      width: 100%; // ancho de la barra
+      height: .8rem; // alto de la barra
+    }
+
+    &::-webkit-scrollbar-track {
+      background: v.$grisClaro; // color del riel de la barra
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: v.$primario; // color de la barra
+      border-radius: 1rem; // borde de la barra
+    }
+  }
+
+  &__lugar {
+    scroll-snap-align: start;
+  }
+
+  &__bg {
+    width: 30rem;
+    height: 30rem;
+    margin-bottom: .8rem;
+    border-radius: 1.6rem;
+    background-size: cover;
+    background-position: center;
+
+    @media (min-width: 768px) {
+      width: 100%;
+    }
+  }
+}
+
+.lugares__bg--1 {
+  background-image: url("../img/vive_1.jpg");
+}
+
+@supports (background-image: url("../img/vive_1.webp")) {
+  .lugares__bg--1 {
+    background-image: url("../img/vive_1.webp");
+  }
+}
+
+@supports (background-image: url("../img/vive_1.avif")) {
+  .lugares__bg--1 {
+    background-image: url("../img/vive_1.avif");
+  }
+}
+
+.lugares__bg--2 {
+  background-image: url("../img/vive_2.jpg");
+}
+
+@supports (background-image: url("../img/vive_2.webp")) {
+  .lugares__bg--2 {
+    background-image: url("../img/vive_2.webp");
+  }
+}
+
+@supports (background-image: url("../img/vive_2.avif")) {
+  .lugares__bg--2 {
+    background-image: url("../img/vive_2.avif");
+  }
+}
+
+.lugares__bg--3 {
+  background-image: url("../img/vive_3.jpg");
+}
+
+
+@supports (background-image: url("../img/vive_3.webp")) {
+  .lugares__bg--3 {
+    background-image: url("../img/vive_3.webp");
+  }
+}
+
+@supports (background-image: url("../img/vive_3.avif")) {
+  .lugares__bg--3 {
+    background-image: url("../img/vive_3.avif");
+  }
+}
+
+.lugares__bg--4 {
+  background-image: url("../img/vive_4.jpg");
+}
+
+@supports (background-image: url("../img/vive_4.webp")) {
+  .lugares__bg--4 {
+    background-image: url("../img/vive_4.webp");
+  }
+}
+
+@supports (background-image: url("../img/vive_4.avif")) {
+  .lugares__bg--4 {
+    background-image: url("../img/vive_4.avif");
+  }
+}
