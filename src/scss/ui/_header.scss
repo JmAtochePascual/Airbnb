@@ -132,3 +132,15 @@
     }
   }
 }
+
+@supports (background-image:url("../img/header.webp")) {
+  .header {
+    background-image: url("../img/header.webp");
+  }
+}
+
+@supports (background-image:url("../img/header.avif")) {
+  .header {
+    background-image: url("../img/header.avif");
+  }
+}
