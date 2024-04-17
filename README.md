@@ -4,7 +4,7 @@ Este proyecto es una réplica de la plataforma AirBNB, diseñada para facilitar 
 
 ## 🎯 Contenido
 
-1. [Descripción](#📝-descripción)
+1. [Descripción](#descripción)
 2. [Tecnologías y Herramientas](#🛠️-tecnologías-y-herramientas)
 3. [Estructura del Proyecto](#🚀-estructura-del-proyecto)
 4. [Uso](#🧑‍💻-uso)
