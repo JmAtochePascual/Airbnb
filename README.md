@@ -20,12 +20,7 @@ Este proyecto es una réplica de la plataforma Airbnb, diseñada para facilitar 
 - **build/img**: Carpeta con imágenes optimizadas en formatos WebP y AVIF para mejor rendimiento web.
 - **src/scss**: Carpeta con los archivos fuente SCSS organizados en módulos y componentes.
 - **src/img**: Carpeta con las imágenes originales sin optimizar.
-- **index.html**: Página de inicio que presenta la cafetería y sus principales características.
-- **nosotros.html**: Página que cuenta nuestra historia, valores y equipo.
-- **proceso.html**: Página que detalla nuestro proceso de selección y preparación del café.
-- **menu.html**: Carta completa con nuestras bebidas, postres y platos especiales.
-- **galeria.html**: Colección de fotografías que muestran nuestro ambiente y productos.
-- **contacto.html**: Página con formulario de contacto y ubicación.
+- **index.html**: Página de inicio que nuestras destinos y habitaciones.
 
 ## Uso
 
