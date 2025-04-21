@@ -1,18 +1,27 @@
-# ⚡️ Airbnb
+# Airbnb
 
 Este proyecto es una réplica de la plataforma Airbnb, diseñada para facilitar la búsqueda y reserva de alojamientos únicos en todo el mundo. Los usuarios pueden explorar una amplia variedad de propiedades, desde apartamentos y casas hasta experiencias locales auténticas. La plataforma permite a los viajeros encontrar el alojamiento perfecto según sus preferencias y presupuesto, mientras que los anfitriones pueden listar sus espacios y conectar con huéspedes de manera segura. Incluye funcionalidades como búsqueda avanzada, sistema de reservas, mensajería integrada, reseñas y calificaciones.
 
-## Tecnologías y Herramientas
+# Caracteristicas
+
+- **Google Fonts**: Tipografías web optimizadas.
+- **Optimización SEO**: Metadatos y estructura optimizada para buscadores.
+- **PostCSS**: Procesamiento de CSS con plugins como Autoprefixer y CSSnano.
+- **Responsive Design**: Diseño adaptable para todos los dispositivos.
+- **Formatos de imagen modernos**: Soporte para WebP y AVIF para optimizar el rendimiento.
+- **Favicon**: Iconos personalizados para diferentes dispositivos y plataformas.
+
+## Tecnologías
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+![Gulp](https://img.shields.io/badge/GULP-%23CF4647.svg?style=for-the-badge&logo=gulp&logoColor=white)
 
 - **HTML5**: Lenguaje de marcado para la estructura de la página.
 - **CSS3**: Estilos para el diseño y presentación.
 - **SCSS/SASS**: Preprocesador CSS para una escritura más eficiente de estilos.
 - **Gulp**: Automatización de tareas como compilación de SCSS, optimización de imágenes y más.
-- **PostCSS**: Procesamiento de CSS con plugins como Autoprefixer y CSSnano.
-- **Google Fonts**: Tipografías web optimizadas.
-- **Responsive Design**: Diseño adaptable para todos los dispositivos.
-- **Formatos de imagen modernos**: Soporte para WebP y AVIF para optimizar el rendimiento.
-- **Favicon**: Iconos personalizados para diferentes dispositivos y plataformas.
 
 ## Estructura del Proyecto
 
@@ -20,7 +29,12 @@ Este proyecto es una réplica de la plataforma Airbnb, diseñada para facilitar 
 - **build/img**: Carpeta con imágenes optimizadas en formatos WebP y AVIF para mejor rendimiento web.
 - **src/scss**: Carpeta con los archivos fuente SCSS organizados en módulos y componentes.
 - **src/img**: Carpeta con las imágenes originales sin optimizar.
-- **index.html**: Página de inicio que nuestras destinos y habitaciones.
+- **index.html**: Página de inicio que presenta la aplicación de Delivery App y sus funcionalidades.
+
+## Instalación
+
+> Nota: Para trabajar en este proyecto necesitas tener instalado
+> Node.js (versión 14 o superior)
 
 ## Uso
 
@@ -30,34 +44,6 @@ Para visualizar el proyecto localmente, sigue estos pasos:
 
 ```
 git clone https://github.com/JMatochePascual/Airbnb.git
-```
-
-2. Navega al directorio del proyecto:
-
-```
-cd Airbnb
-```
-
-3. Abre el archivo `index.html` en tu navegador web preferido
-
-4. Opcionalmente, puedes usar un servidor local como Live Server para una mejor experiencia
-
-### Requisitos Previos
-
-Para trabajar con este proyecto necesitarás:
-
-- Node.js (versión 14 o superior)
-- npm (Node Package Manager)
-- Conocimientos básicos de la terminal/línea de comandos
-
-## Instalación
-
-Para comenzar a trabajar con este proyecto, sigue estos pasos:
-
-1. Clona este repositorio:
-
-```
-git clone https://github.com/jmatochepascual/Airbnb.git
 ```
 
 2. Navega al directorio del proyecto:
@@ -78,11 +64,15 @@ npm i
 gulp dev
 ```
 
+5. Abre el archivo `index.html` en tu navegador web preferido
+
+6. Opcionalmente, puedes usar un servidor local como Live Server para una mejor experiencia
+
 ## Contribución
 
 Si deseas contribuir al proyecto, por favor sigue estos pasos en orden:
 
-1. Haz un fork del repositorio.
+1. Haz un fork del repositorio
 
 2. Crea una nueva rama para tu funcionalidad:
    ```bash
@@ -100,14 +90,6 @@ Si deseas contribuir al proyecto, por favor sigue estos pasos en orden:
 
 ## Licencia
 
-Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT).
+Este proyecto se encuentra disponible bajo la licencia MIT. Puedes consultar los términos completos [aquí](https://opensource.org/licenses/MIT).
 
-## Imagen de Rereferencia
-
-![](https://i.postimg.cc/FFpTD1FJ/Airbnb.png)
-
-## ¡Visita Nuestro Proyecto!
-
-¿Quieres ver Airbnb en acción? ¡Haz clic aquí! 👉 [Visitar Airbnb](https://jmatochepascual.github.io/Airbnb/)
-
-Hecho con 💚 por Airbnb | ©2025 - Transformando tu Airbnb en una experiencia única
+Desarrollado con 💚 por JMCode | © 2025 - Transformando ideas en soluciones digitales
